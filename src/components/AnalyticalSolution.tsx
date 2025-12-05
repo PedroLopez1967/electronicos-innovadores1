@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Calculator, Lightbulb, CheckCircle } from 'lucide-react';
-import { BlockMath, InlineMath } from 'react-katex';
+import { BlockMath } from 'react-katex';
 import type { SimulationParameters, AnalyticalSolution as AnalyticalSolutionType } from '../types';
 import { calculateAnalyticalSolution, formatCurrency } from '../utils/mathUtils';
 

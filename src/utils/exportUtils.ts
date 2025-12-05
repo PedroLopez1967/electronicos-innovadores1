@@ -255,7 +255,7 @@ export function exportToPDF(
       doc.setFillColor(240, 240, 240);
       doc.rect(20, yPos - 5, 170, 7, 'F');
     }
-    doc.text(row[0], 25, yPos);
+    doc.text(String(row[0]), 25, yPos);
     doc.text(String(row[1]), 75, yPos);
     doc.text(String(row[2]), 115, yPos);
     doc.text(String(row[3]), 160, yPos);

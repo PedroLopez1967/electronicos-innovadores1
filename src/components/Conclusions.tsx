@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { FileText, Download, Copy, CheckCircle, BarChart3, FileDown } from 'lucide-react';
 import type { PolicyStatistics, AnalyticalSolution, PolicySimulation, SimulationParameters } from '../types';
 import { formatCurrency, formatNumber, formatPercentage } from '../utils/mathUtils';

@@ -1,4 +1,3 @@
-import { create, all } from 'mathjs';
 import type {
   SimulationParameters,
   SimulationResult,
@@ -6,8 +5,6 @@ import type {
   AnalyticalSolution,
   RandomNumberExample,
 } from '../types';
-
-const math = create(all);
 
 /**
  * Genera un número aleatorio con distribución normal usando Box-Muller
